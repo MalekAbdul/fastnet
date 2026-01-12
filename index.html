@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusNet | Next-Gen Internet Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="bg-gradient"></div>
+    <div class="floating-elements">
+        <div class="floating-element el1"></div>
+        <div class="floating-element el2"></div>
+        <div class="floating-element el3"></div>
+        <div class="floating-element el4"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header glass">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-primary">Nexus</span><span class="logo-accent">Net</span>
+                    </div>
+                </a>
+                
+                <div class="nav-center">
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a></li>
+                        <li><a href="pages/about.html" class="nav-link">
+                            <i class="fas fa-info-circle"></i>
+                            <span>About</span>
+                        </a></li>
+                        <li><a href="pages/plans.html" class="nav-link">
+                            <i class="fas fa-rocket"></i>
+                            <span>Plans</span>
+                        </a></li>
+                        <li><a href="#services" class="nav-link">
+                            <i class="fas fa-server"></i>
+                            <span>Services</span>
+                        </a></li>
+                        <li><a href="#coverage" class="nav-link">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>Coverage</span>
+                        </a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-actions">
+                    <a href="tel:18001234567" class="phone-btn">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Call Now</span>
+                    </a>
+                    <button class="btn btn-glow" id="signup-btn">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <div class="mobile-toggle">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge animate-pulse">
+                    <i class="fas fa-crown"></i>
+                    <span>#1 Rated ISP 2024</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Experience The</span>
+                    <span class="title-line">
+                        <span class="gradient-text">Future</span> Of
+                    </span>
+                    <span class="title-line">Internet</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Lightning-fast fiber internet with zero buffering, zero lag, and infinite possibilities. 
+                    Join thousands of satisfied customers.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number" data-count="99.9">0</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">Gig Cities</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">K+ Customers</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label">/7 Support</div>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="pages/plans.html" class="btn btn-primary btn-large btn-glow">
+                        <span>Explore Plans</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#coverage" class="btn btn-outline btn-large">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Check Availability</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="speedometer">
+                    <div class="speedometer-circle">
+                        <div class="needle"></div>
+                        <div class="speed-display">
+                            <div class="speed-value">2.5</div>
+                            <div class="speed-unit">Gbps</div>
+                        </div>
+                    </div>
+                    <div class="speed-label">Max Speed</div>
+                </div>
+                
+                <div class="floating-cards">
+                    <div class="floating-card card1">
+                        <i class="fas fa-wifi"></i>
+                        <h4>Mesh WiFi</h4>
+                        <p>Whole Home Coverage</p>
+                    </div>
+                    <div class="floating-card card2">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Security</h4>
+                        <p>Advanced Protection</p>
+                    </div>
+                    <div class="floating-card card3">
+                        <i class="fas fa-gamepad"></i>
+                        <h4>Gaming</h4>
+                        <p>Low Latency</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Our Solutions</div>
+                <h2 class="section-title">Designed For Your Digital Lifestyle</h2>
+                <p class="section-subtitle">From streaming 8K content to competitive gaming, we've got you covered</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon icon-animate">
+                        <i class="fas fa-home"></i>
+                        <div class="icon-ring"></div>
+                    </div>
+                    <h3>Residential Fiber</h3>
+                    <p>Symmetrical speeds up to 2.5Gbps for seamless streaming, gaming, and smart home connectivity.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Whole Home WiFi</span>
+                        <span><i class="fas fa-check"></i> Unlimited Data</span>
+                        <span><i class="fas fa-check"></i> Smart Hub</span>
+                    </div>
+                    <a href="#" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card highlight">
+                    <div class="service-badge">Popular</div>
+                    <div class="service-icon icon-animate">
+                        <i class="fas fa-building"></i>
+                        <div class="icon-ring"></div>
+                    </div>
+                    <h3>Business Fiber</h3>
+                    <p>Dedicated fiber with SLA guarantees, static IPs, and 24/7 priority support for your business.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> 99.99% Uptime</span>
+                        <span><i class="fas fa-check"></i> Static IPs</span>
+                        <span><i class="fas fa-check"></i> Priority Support</span>
+                    </div>
+                    <a href="#" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon icon-animate">
+                        <i class="fas fa-tower-cell"></i>
+                        <div class="icon-ring"></div>
+                    </div>
+                    <h3>5G Wireless</h3>
+                    <p>Ultra-fast wireless internet where fiber isn't available. No contracts, easy setup.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> No Installation</span>
+                        <span><i class="fas fa-check"></i> Portable</span>
+                        <span><i class="fas fa-check"></i> Unlimited</span>
+                    </div>
+                    <a href="#" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Showcase -->
+    <section class="section plans-showcase">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Pricing Plans</div>
+                <h2 class="section-title">Internet That Grows With You</h2>
+                <p class="section-subtitle">No hidden fees, no data caps, no nonsense</p>
+            </div>
+            
+            <div class="plans-container">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Essential</h3>
+                        <div class="plan-price">
+                            <sup>$</sup>49<small>/mo</small>
+                        </div>
+                        <div class="plan-speed">
+                            <i class="fas fa-tachometer-alt"></i>
+                            500 Mbps
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check-circle"></i> Unlimited Data</li>
+                        <li><i class="fas fa-check-circle"></i> Free Router</li>
+                        <li><i class="fas fa-check-circle"></i> Basic Security</li>
+                        <li><i class="fas fa-times-circle"></i> Static IP</li>
+                        <li><i class="fas fa-times-circle"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn btn-outline plan-btn">Select Plan</button>
+                </div>
+                
+                <div class="plan-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Pro</h3>
+                        <div class="plan-price">
+                            <sup>$</sup>69<small>/mo</small>
+                        </div>
+                        <div class="plan-speed">
+                            <i class="fas fa-tachometer-alt"></i>
+                            1 Gbps
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check-circle"></i> Unlimited Data</li>
+                        <li><i class="fas fa-check-circle"></i> WiFi 6 Router</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced Security</li>
+                        <li><i class="fas fa-check-circle"></i> 1 Static IP</li>
+                        <li><i class="fas fa-times-circle"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn btn-primary btn-glow plan-btn">Select Plan</button>
+                </div>
+                
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Ultimate</h3>
+                        <div class="plan-price">
+                            <sup>$</sup>99<small>/mo</small>
+                        </div>
+                        <div class="plan-speed">
+                            <i class="fas fa-tachometer-alt"></i>
+                            2.5 Gbps
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check-circle"></i> Unlimited Data</li>
+                        <li><i class="fas fa-check-circle"></i> Mesh WiFi System</li>
+                        <li><i class="fas fa-check-circle"></i> Premium Security</li>
+                        <li><i class="fas fa-check-circle"></i> 5 Static IPs</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Priority Support</li>
+                    </ul>
+                    <button class="btn btn-outline plan-btn">Select Plan</button>
+                </div>
+            </div>
+            
+            <div class="plans-cta">
+                <a href="pages/plans.html" class="btn btn-secondary">
+                    <span>Compare All Plans</span>
+                    <i class="fas fa-chart-bar"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Map -->
+    <section id="coverage" class="section coverage">
+        <div class="container">
+            <div class="coverage-content">
+                <div class="coverage-text">
+                    <div class="section-badge">Service Area</div>
+                    <h2 class="section-title">Expanding Our Network Daily</h2>
+                    <p>Enter your address to see if NexusNet's lightning-fast fiber is available in your neighborhood.</p>
+                    
+                    <div class="coverage-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Enter your address" class="form-input">
+                            <button class="form-btn">
+                                <i class="fas fa-search"></i>
+                                Check
+                            </button>
+                        </div>
+                        <div class="coverage-result">
+                            <div class="result-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="result-text">
+                                <h4>Available at your location!</h4>
+                                <p>Speeds up to 2.5Gbps are available</p>
+                            </div>
+                            <button class="btn btn-small">Sign Up Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="coverage-visual">
+                    <div class="map-container">
+                        <div class="map"></div>
+                        <div class="map-point" style="top: 30%; left: 25%;">
+                            <div class="point-pulse"></div>
+                            <div class="point-label">Downtown</div>
+                        </div>
+                        <div class="map-point" style="top: 45%; left: 60%;">
+                            <div class="point-pulse"></div>
+                            <div class="point-label">Westside</div>
+                        </div>
+                        <div class="map-point" style="top: 70%; left: 40%;">
+                            <div class="point-pulse"></div>
+                            <div class="point-label">East End</div>
+                        </div>
+                        <div class="map-point" style="top: 35%; left: 75%;">
+                            <div class="point-pulse"></div>
+                            <div class="point-label">North Hills</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-primary">Nexus</span><span class="logo-accent">Net</span>
+                        </div>
+                    </a>
+                    <p class="footer-about">Redefining internet connectivity with cutting-edge fiber technology and unparalleled customer service.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/about.html">About Us</a></li>
+                        <li><a href="pages/plans.html">Plans & Pricing</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#coverage">Coverage Map</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Service Status</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                        <li><a href="#">Speed Test</a></li>
+                        <li><a href="#">Account Management</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Tech Avenue, Digital City 10101</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>1-800-NEXUSNET</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@nexusnet.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Customer Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> NexusNet Internet. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signup-modal">
+        <div class="modal-content glass">
+            <div class="modal-header">
+                <h3>Get Started With NexusNet</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Fill out this quick form and we'll contact you within 24 hours.</p>
+                <form class="signup-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Address" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-glow">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
